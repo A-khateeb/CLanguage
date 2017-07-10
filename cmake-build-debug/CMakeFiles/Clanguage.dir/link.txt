@@ -1,0 +1,1 @@
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/Clanguage.dir/main.c.o  -o Clanguage.exe -Wl,--out-implib,libClanguage.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

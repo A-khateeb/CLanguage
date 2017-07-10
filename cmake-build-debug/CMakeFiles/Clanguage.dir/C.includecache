@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/head.c
+stdio.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
+stdio.h
+-
+head.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/head.c
+temconverter.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/temconverter.c
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/temconverter.c
+stdio.h
+-
+
