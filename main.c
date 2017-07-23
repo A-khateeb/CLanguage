@@ -1,38 +1,63 @@
 #include <stdio.h>
 #include "head.c"
 #include "temconverter.c"
+#include "for_statement.c"
+#include "constant_define.c"
+#include "I-O-File-Copying-Lang.c"
+#include "I-O-File-Copying-Lang_enhanced.c"
+#include "Character_count.c"
+#include "Countline.c"
+#include "countVariable.c"
+#include "arrays.c"
+#include "1-13histogram.c"
+#include "EXP.c"
+#include "Conversion.c"
 int main(){
 
-    smain();
-    tem();
-    printf("Hello, ");
-    printf("World!");
-    printf("\n");
+        mainconv();
+    /*  maine();
+        maia();
+        maini();
+        maincount();
+        mainline();
+        main_cha();
+        mainchar_enhanced();
+        mainchar();
+        main_fah();
+        for_main();
+        smain();
+        tem();
+        printf("Hello, ");
+        printf("World!");
+        printf("\n");
 
-    printf("New Line\n");
+        printf("New Line\n");
 
-    printf("Hello, ");
-    printf("World!");
-    printf("\\");
+        printf("Hello, ");
+        printf("World!");
+        printf("\\");
 
-    printf("New Line\n");
+        printf("New Line\n");
 
-    printf("Hello, ");
-    printf("World!");
-    printf("\"");
+        printf("Hello, ");
+        printf("World!");
+        printf("\"");
 
-    printf("New Line\n");
+        printf("New Line\n");
 
-    printf("Hello, ");
-    printf("\b");
-    printf("World!");
-    printf("\b");
+        printf("Hello, ");
+        printf("\b");
+        printf("World!");
+        printf("\b");
 
-    printf("New Line\n");
+        printf("New Line\n");
 
-    printf("Hello, ");
-    printf("\t");
-    printf("World!");
-    printf("\t");
+        printf("Hello, ");
+        printf("\t");
+        printf("World!");
+        printf("\t");
+   */
+    printf("insert a value");
+    getchar();
     return 0;
 }
