@@ -11,28 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9408327-5deb-4151-8070-c340f0ef4519" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-13histogram.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Character_count.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conversion.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CountLine.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EXP.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/I-O-File-Copying-Lang.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/I-O-File-Copying-Lang_enhanced.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arrays.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_define.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countVariable.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/for_statement.c" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/main.c.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/Clanguage.exe" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Clanguage.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head.c" afterPath="$PROJECT_DIR$/head.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temconverter.c" afterPath="$PROJECT_DIR$/temconverter.c" />
-    </list>
+    <list default="true" id="e9408327-5deb-4151-8070-c340f0ef4519" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,10 +23,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
+            <state relative-caret-position="26">
               <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -66,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conversion.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conversion.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conversion.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -407,12 +386,12 @@
       <workItem from="1500214286218" duration="7938000" />
       <workItem from="1500491791814" duration="648000" />
       <workItem from="1500642102733" duration="9679000" />
-      <workItem from="1500834110964" duration="4220000" />
+      <workItem from="1500834110964" duration="4337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44109000" />
+    <option name="totallyTimeSpent" value="44226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -806,21 +785,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conversion.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
