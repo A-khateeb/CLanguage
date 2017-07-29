@@ -10,6 +10,10 @@
 stdio.h
 -
 
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/CharArrays.c
+stdio.h
+-
+
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/Character_count.c
 stdio.h
 -
@@ -24,6 +28,10 @@ stdio.h
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/EXP.c
 stdlib.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/ExternalVariables.c
+stdio.h
 -
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/I-O-File-Copying-Lang.c
@@ -85,6 +93,10 @@ EXP.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/EXP.c
 Conversion.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/Conversion.c
+CharArrays.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/CharArrays.c
+ExternalVariables.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/ExternalVariables.c
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/temconverter.c
 stdio.h

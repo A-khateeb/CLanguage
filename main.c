@@ -12,10 +12,14 @@
 #include "1-13histogram.c"
 #include "EXP.c"
 #include "Conversion.c"
+#include "CharArrays.c"
+#include "ExternalVariables.c"
+#include "header.h"
 int main(){
-
-        mainconv();
-    /*  maine();
+  mainsss();
+     /* mains();
+      * mainconv();
+        maine();
         maia();
         maini();
         maincount();
@@ -56,8 +60,9 @@ int main(){
         printf("\t");
         printf("World!");
         printf("\t");
-   */
+*/
     printf("insert a value");
     getchar();
     return 0;
+
 }

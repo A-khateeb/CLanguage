@@ -1,5 +1,5 @@
 #include <stdlib.h>
-int power(int , int);
+int power(int  ,int );
 maine()
 {
     int i;
