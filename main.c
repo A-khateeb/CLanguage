@@ -15,52 +15,63 @@
 #include "CharArrays.c"
 #include "ExternalVariables.c"
 #include "header.h"
+#include "size of data types.c"
+#include "strlen in c .c"
+enum boolean {yes, no};
+enum months{
+    JAN=1, FEB,MAR,APR,MAY,JUN,JUL,AUG,};
+
+};
 int main(){
-  mainsss();
-     /* mains();
-      * mainconv();
-        maine();
-        maia();
-        maini();
-        maincount();
-        mainline();
-        main_cha();
-        mainchar_enhanced();
-        mainchar();
-        main_fah();
-        for_main();
-        smain();
-        tem();
-        printf("Hello, ");
-        printf("World!");
-        printf("\n");
+    mainlen();
+    mainsab();
+JAN =12;
 
-        printf("New Line\n");
+    /*    mainsss();
+          mains();
+          mainconv();
+          maine();
+          maia();
+          maini();
+          maincount();
+          mainline();
+          main_cha();
+          mainchar_enhanced();
+          mainchar();
+          main_fah();
+          for_main();
+          smain();
+          tem();
+          printf("Hello, ");
+          printf("World!");
+          printf("\n");
 
-        printf("Hello, ");
-        printf("World!");
-        printf("\\");
+          printf("New Line\n");
 
-        printf("New Line\n");
+          printf("Hello, ");
+          printf("World!");
+          printf("\\");
 
-        printf("Hello, ");
-        printf("World!");
-        printf("\"");
+          printf("New Line\n");
 
-        printf("New Line\n");
+          printf("Hello, ");
+          printf("World!");
+          printf("\"");
 
-        printf("Hello, ");
-        printf("\b");
-        printf("World!");
-        printf("\b");
+          printf("New Line\n");
 
-        printf("New Line\n");
+          printf("Hello, ");
+          printf("\b");
+          printf("World!");
+          printf("\b");
 
-        printf("Hello, ");
-        printf("\t");
-        printf("World!");
-        printf("\t");
-*/
+          printf("New Line\n");
+
+          printf("Hello, ");
+          printf("\t");
+          printf("World!");
+          printf("\t");
+  */
     printf("insert a value");
     getchar();
     return 0;

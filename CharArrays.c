@@ -36,7 +36,6 @@ mains()
     s[i] = '\0';
     return i;
 }
-
 void copy(char to[], char from[]){
     int i;
     i=0;

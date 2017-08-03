@@ -33,6 +33,8 @@ stdlib.h
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/ExternalVariables.c
 stdio.h
 -
+header.h
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/header.h
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/I-O-File-Copying-Lang.c
 stdio.h
@@ -61,6 +63,10 @@ stdio.h
 -
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/head.c
+stdio.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/header.h
 stdio.h
 -
 
@@ -97,6 +103,24 @@ CharArrays.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/CharArrays.c
 ExternalVariables.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/ExternalVariables.c
+header.h
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/header.h
+size of data types.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/size of data types.c
+strlen in c .c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/strlen in c .c
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/size of data types.c
+stdio.h
+-
+limits.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/strlen in c .c
+stdio.h
+-
+string.h
+-
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/temconverter.c
 stdio.h
