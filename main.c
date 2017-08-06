@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <w32api/dshow.h>
 #include "head.c"
 #include "temconverter.c"
 #include "for_statement.c"
@@ -17,17 +18,29 @@
 #include "header.h"
 #include "size of data types.c"
 #include "strlen in c .c"
-enum boolean {yes, no};
+#include "alternative loop.c"
+#include "atoi.c"
+#include "ASCII Code .c"
+#include "squeeze.c"
+#include "strcat.c"
+/*enum boolean {yes, no};
 enum months{
     JAN=1, FEB,MAR,APR,MAY,JUN,JUL,AUG,};
+*/
 
-};
-int main(){
-    mainlen();
-    mainsab();
-JAN =12;
+int main()
+{
+    mainstr;
+    mainsss();
+/*    maincon();
 
-    /*    mainsss();
+           mainS();
+         mainconvert();
+         mainlen();
+         mainsab();
+
+
+        mainsss();
           mains();
           mainconv();
           maine();

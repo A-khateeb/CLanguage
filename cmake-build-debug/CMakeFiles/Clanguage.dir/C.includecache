@@ -10,6 +10,14 @@
 stdio.h
 -
 
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/ASCII Code .c
+stdio.h
+-
+ctype.h
+-
+math.h
+-
+
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/CharArrays.c
 stdio.h
 -
@@ -44,10 +52,18 @@ stdio.h
 stdio.h
 -
 
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/alternative loop.c
+stdio.h
+-
+
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/arrays.c
 stdio.h
 -
 stdlib.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/atoi.c
+stdio.h
 -
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/constant_define.c
@@ -72,6 +88,8 @@ stdio.h
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
 stdio.h
+-
+w32api/dshow.h
 -
 head.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/head.c
@@ -109,11 +127,29 @@ size of data types.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/size of data types.c
 strlen in c .c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/strlen in c .c
+alternative loop.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/alternative loop.c
+atoi.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/atoi.c
+ASCII Code .c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/ASCII Code .c
+squeeze.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/squeeze.c
+strcat.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/strcat.c
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/size of data types.c
 stdio.h
 -
 limits.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/squeeze.c
+stdio.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/strcat.c
+stdio.h
 -
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/strlen in c .c
