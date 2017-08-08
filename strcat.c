@@ -12,4 +12,3 @@ void strcat(char s[], char t[]) {
     while ((s[i++] = t[j++]) != '\0');
 
 }
-}
