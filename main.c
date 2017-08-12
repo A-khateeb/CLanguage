@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include "bitcount.c"
-int main()
+#include "BS V2.c"
+main()
 {
-    mainsS();
-
+    mainss();
     printf("insert a value");
     getchar();
     return 0;

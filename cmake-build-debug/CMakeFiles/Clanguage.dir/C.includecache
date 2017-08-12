@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/bitcount.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/BS V2.c
 stdio.h
 -
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
 stdio.h
 -
-bitcount.c
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/bitcount.c
+BS V2.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/BS V2.c
 
