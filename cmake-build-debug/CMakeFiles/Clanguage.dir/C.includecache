@@ -10,9 +10,33 @@
 stdio.h
 -
 
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Ctype Code .c
+stdio.h
+-
+ctype.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Reverse Sting.c
+stdio.h
+-
+string.h
+-
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Switch Case .c
+stdio.h
+-
+
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
 stdio.h
 -
+ctype.h
+-
 BS V2.c
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/BS V2.c
+Switch Case .c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Switch Case .c
+Ctype Code .c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Ctype Code .c
+Reverse Sting.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Reverse Sting.c
 
