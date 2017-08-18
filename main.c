@@ -4,14 +4,18 @@
 #include "Switch Case .c"
 #include "Ctype Code .c"
 #include "Reverse Sting.c"
+#include "trim.c"
 main()
 {
-    mainstring();
+    maintrim();
+
     printf("insert a value");
     getchar();
     return 0;
 
-    /*mainsss();
+    /*
+     * mainstring();
+     * mainsss();
     mainss();
     mains();
     */

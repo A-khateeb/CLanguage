@@ -6,4 +6,5 @@ CMakeFiles/Clanguage.dir/main.c.o: ../Ctype\ Code\ .c
 CMakeFiles/Clanguage.dir/main.c.o: ../Reverse\ Sting.c
 CMakeFiles/Clanguage.dir/main.c.o: ../Switch\ Case\ .c
 CMakeFiles/Clanguage.dir/main.c.o: ../main.c
+CMakeFiles/Clanguage.dir/main.c.o: ../trim.c
 
