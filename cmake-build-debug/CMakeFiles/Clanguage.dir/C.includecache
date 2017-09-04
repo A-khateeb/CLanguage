@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Power.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
 stdio.h
 -
 ctype.h
 -
-
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
-stdio.h
--
-Power.c
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Power.c
 
