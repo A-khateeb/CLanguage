@@ -4,7 +4,10 @@
 #define MAXOP 100
 #define NUMBER '0'
 #define MAXVAL 100
+#define BUFSIZE 100
 
+char buf[BUFSIZE];
+int bufp = 0;
 int getch(void);
 int sp =0;
 double val[MAXVAL];
@@ -86,4 +89,15 @@ int getop(char s[]){
     if( c != EOF)
         ungetch(c);
     return NUMBER;
+}
+
+int getch(void){
+    return (bufp > 0) ? buf[--bufp] : getchar();
+}
+
+void ungetch(int c){
+    if(bufp > BUFSIZE)
+        printf("Ungetch : Too many characters");
+    else
+        buf[bufp++] = c;
 }
