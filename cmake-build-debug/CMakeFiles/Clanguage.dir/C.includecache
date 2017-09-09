@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Calulator Polish Notation .c
 stdio.h
+-
+stdlib.h
 -
 ctype.h
 -
+
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
+Calulator Polish Notation .c
+/cygdrive/c/Users/Sireena/Dropbox/Clanguage/Calulator Polish Notation .c
 
