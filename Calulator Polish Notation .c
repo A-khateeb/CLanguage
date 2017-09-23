@@ -71,7 +71,7 @@ double pop(void)
 }
 
 int getop(char s[]){
-    register nt i,c;
+    register int i,c;
     while ((s[0] = c = getch()) ==' ' || c == '\t')
         ;
     s[1] = '\0';
