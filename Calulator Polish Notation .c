@@ -53,7 +53,7 @@ mainss()
     return 0;
 }
 
-void push(double f){
+void push(register double f){
     if(sp< MAXVAL)
         val[sp++] =f;
     else
@@ -71,7 +71,7 @@ double pop(void)
 }
 
 int getop(char s[]){
-    int i,c;
+    register nt i,c;
     while ((s[0] = c = getch()) ==' ' || c == '\t')
         ;
     s[1] = '\0';
