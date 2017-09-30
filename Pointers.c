@@ -1,10 +1,10 @@
+//
+// Created by Afeef Khateeb on 9/30/2017.
+//
 #include <stdlib.h>
 #include <stdio.h>
-
-main()
+mains()
 {
-
-    printf("Insert a value");
     int x=1, y=2, z[10];
     int *ip;
     ip= &x;
@@ -12,6 +12,7 @@ main()
     *ip = 0;
     ip = &z[0];
     printf(x,z,y,ip);
-    getchar();
     return 0;
+
+
 }
