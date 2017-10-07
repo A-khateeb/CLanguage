@@ -11,7 +11,7 @@ main()
     y= *ip;
     *ip = 0;
     ip = &z[0];
-    printf(x,z,y,ip);
+    printf(z,y,ip);
     getchar();
     return 0;
 }
