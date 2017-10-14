@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /cygdrive/c/Users/Sireena/Dropbox/Clanguage/main.c
-stdlib.h
--
 stdio.h
 -
 
