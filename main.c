@@ -1,25 +1,49 @@
 #include <stdio.h>
-#define ALLOCSIZE 1000
-static char allocbuf[ALLOCSIZE];
-static char *allocp = allocbuf;
+#include <string.h>
+#define MAXLINES 5000
+char *lineptr[MAXLINES];
+int readlines(char *lineptr[], int nlines);
+void writelines(char *lineptr[], int nlines);
+
+void qsort(char *lineptr[],int left, int right);
+
 main()
 {
-
-    return 0;
-
-}
-
-char *alloc(int n)
-{
-    if(allocbuf+ALLOCSIZE - allocp >= n){
-        allocp +=n;
-        return allocp - n;
-
-    } else
+    int nlines;
+    if((nlines=readlines(lineptr, MAXLINES)) >=0)
+    {
+        qsort(lineptr,0,nlines-1);
+        writelines(lineptr,nlines);
         return 0;
+    } else{
+        printf("Error: input too big to sort\n");
+        return 1;
+    }
 }
-void afree(char *p)
+#define MAXLEN 1000
+int getlines(char *, int);
+char *alloc(int);
+int readlines(char *lineptr[], int maxlines) {
+    int len, nlines;
+    char *p, line[MAXLEN];
+    nlines = 0;
+    while ((len = getlines(line, MAXLEN)) > 0)
+        if ((nlines >= maxlines) || (p = alloc(len)) == NULL)
+            return -1;
+        else {
+            line[len - 1] = '\0';
+            strcpy(p, line);
+            lineptr[nlines++] = p;
+
+        }
+    return nlines;
+}
+
+void writelines(char *lineptr[], int nlines)
 {
-    if(p>=allocbuf && p <allocbuf+ ALLOCSIZE)
-        allocp = p;
+    int i;
+    for(i=0; i<nlines;i++)
+        printf("%s\n", lineptr[i]);
 }
+
+
