@@ -1,39 +1,41 @@
 #include <stdio.h>
 #include <string.h>
-#define MAXLINE 1000
-int getlines(char *line, int max);
-/* find: print lines that match pattern from 1st arg */
+#define MAXLINES 5000
+char *lineptr[MAXLINES];
+int readlines(char *lineptr[], int nlines);
+void writelines(char *lineptr[], int nlines);
+void qsort(void *lineptr[], int left, int right, int (*comp)(void *, void *));
+int numcmp(char *, char *);
+/* sort input lines */
 main(int argc, char *argv[])
 {
-    char line[MAXLINE];
-    long lineno = 0;
-    int c, except = 0, number = 0, found = 0;
-    while (--argc > 0 && (*++argv)[0] == '-')
-        while (c = *++argv[0])
-            switch (c) {
-                case 'x':
-                    except = 1;
-                    break;
-                case 'n':
-                    number = 1;
-                    break;
-                default:
-                    printf("find: illegal option %c\n", c);
-                    argc = 0;
-                    found = -1;
-                    break;
-            }
-    if (argc != 1)
-        printf("Usage: find -x -n pattern\n");
-    else
-        while (getlines(line, MAXLINE) > 0) {
-            lineno++;
-            if ((strstr(line, *argv) != NULL) != except) {
-                if (number)
-                    printf("%ld:", lineno);
-                printf("%s", line);
-                found++;
-            }
-        }
-    return found;
+    int nlines;
+    int numeric = 0;
+    if (argc > 1 && strcmp(argv[1], "-n") == 0)
+        numeric = 1;
+    if ((nlines = readlines(lineptr, MAXLINES)) >= 0) { qsort((void**) lineptr, 0, nlines-1,
+              (int (*)(void*,void*))(numeric ? numcmp : strcmp));
+        writelines(lineptr, nlines);
+        return 0;
+    } else {
+        printf("input too big to sort\n");
+        return 1;
+    }
+}
+
+void qsort(void *v[], int left, int right,
+           int (*comp)(void *, void *))
+{
+    int i, last;
+    void swap(void *v[], int, int);
+    if (left >= right) /* do nothing if array contains */
+        return; /* fewer than two elements */
+    swap(v, left, (left + right)/2);
+    last = left;
+    for (i = left+1; i <= right; i++)
+        if ((*comp)(v[i], v[left]) < 0)
+            swap(v, ++last, i);
+    swap(v, left, last);
+    qsort(v, left, last-1, comp);
+    qsort(v, last+1, right, comp);
 }
